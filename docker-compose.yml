@@ -1,0 +1,8 @@
+services:
+  streamlit:
+    container_name: "streamlit_rodovias"  
+    build:
+      context: ./  
+      dockerfile: Dockerfile  
+    ports:
+      - "8501:8501"  
